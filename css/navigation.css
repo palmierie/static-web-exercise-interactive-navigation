@@ -1,0 +1,29 @@
+nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  margin-top:30px;
+}
+
+#link-one a:hover{
+  color: green;
+}
+
+#link-two a:hover{
+  background-color: lightcoral;
+}
+#link-three a:active{
+  background-color: lightseagreen;
+  padding: 0 5px;
+}
+#link-four a:hover{
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/9/9b/Rickastleyposter.jpg);
+  padding:25px 50px;
+  background-position-x: -50px;
+  background-position-y: -30px;
+}
+header p {
+  float: right;
+  margin-right:160px;
+  margin-top:-10px;
+}
